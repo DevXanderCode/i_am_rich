@@ -16,7 +16,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - images/diamond.png
+    - images/
 
   # list giving the asset and other descriptors for the font. For
   # example:
