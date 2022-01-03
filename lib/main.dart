@@ -12,7 +12,11 @@ void main() {
           ),
           backgroundColor: Colors.blueGrey[900],
         ),
-        body: Content,
+        body: const Center(
+          child: Image(
+            image: NetworkImage('https://www.w3schools.com/css/img_lights.jpg'),
+          ),
+        ),
       ),
     ),
   );
