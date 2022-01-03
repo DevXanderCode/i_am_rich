@@ -5,7 +5,7 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blueGrey.shade200,
+        backgroundColor: Colors.blueGrey,
         appBar: AppBar(
           title: const Text(
             "I Am Rich",
@@ -14,7 +14,7 @@ void main() {
         ),
         body: const Center(
           child: Image(
-            image: NetworkImage('https://www.w3schools.com/css/img_lights.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
